@@ -1,0 +1,60 @@
+# Jasper2fork and jasper-dev branch profile.yml full example.
+# Celluar Carrier http://www.emailtextmessages.com for more info exampl is Verizon.
+carrier: vtext.com
+
+# First name how the computer will address you
+first_name: Sharan
+# Last or Surname
+last_name: patil
+
+# Warning GMAIL CONFIG IS UNSECURE PLAIN TEXT STORED PASSWORD
+gmail_address: email@gmail.com
+gmail_password: xxxxxxxx
+
+# This for weather forecast can acces City or zipcode
+weather:
+  location: 'POSTALCODE'
+
+# Phone number you can receive text messages on.  
+phone_number: 'xxxxxxxxxxx'
+
+# This sends alerts. false = text message. true = email message.
+prefers_email: false
+
+# Time zone so when you ask for the time it tells you correctly
+timezone: America/Denver
+
+# You can only use one stt_passive_engine
+# Passive engine configuration (keyword detection)
+#stt_passive_engine: x
+
+# You can only use one stt_engine at a time
+# Speech To Text engine with witai-stt example
+active_stt:
+  engine: witai-stt
+witai-stt:
+  access_token:    X
+
+# Text To Speech Config default is espeak-tts
+# uncomment to use
+#tts_engine: mary-tts
+
+#mary-tts:
+#  server: 'xxxxxxxx'
+#  port: 'xxxxxxx'
+#  language: 'en_US'
+#  voice: 'cmu-slt-hsmm'
+
+# Audio configuration
+# uncomment to use
+#audio_engine: pyaudio
+
+#Mic configuration Log output will show options
+#input_device:
+
+#Speak out configuration Log output will show options
+#output_device:
+
+# Wolfram Alpha Integration
+#keys:
+  #WOLFRAMALPHA:   X
